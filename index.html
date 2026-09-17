@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<script>document.documentElement.classList.add("js");</script>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NEXORA — Páginas web que convierten visitantes en clientes</title>
+<meta name="description" content="Diseñamos y programamos sitios web de alto rendimiento para negocios locales y firmas de ingeniería. Landing pages, sitios corporativos y plataformas bilingües." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet" />
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+
+<link rel="stylesheet" href="css/styles.css?v=20260901" />
+</head>
+<body>
+
+<div class="cursor-glow" data-cursor-glow aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" data-nav>
+  <div class="nav__inner container">
+    <a href="#top" class="nav__logo">
+      <span class="nav__logo-mark">N</span>
+      NEXORA<span class="nav__logo-dot">.</span>
+    </a>
+
+    <nav class="nav__links" data-nav-links>
+      <a href="#top" data-i18n="nav.home">Inicio</a>
+      <a href="#solucion" data-i18n="nav.services">Servicios</a>
+      <a href="#portafolio" data-i18n="nav.portfolio">Portafolio</a>
+      <a href="#servicios" data-i18n="nav.pricing">Precios</a>
+      <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+    </nav>
+
+    <div class="nav__actions">
+      <div class="lang-toggle" data-lang-toggle role="group" aria-label="Selector de idioma / Language selector">
+        <button type="button" data-lang-btn="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+      </div>
+      <a href="https://wa.me/584262238091?text=Hola%20Nexora%2C%20quiero%20una%20p%C3%A1gina%20web%20para%20mi%20negocio" target="_blank" rel="noopener" class="btn btn--ghost nav__cta-desktop" data-i18n="nav.whatsapp">WhatsApp</a>
+      <button class="nav__burger" data-burger aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="nav__mobile" data-nav-mobile>
+    <div class="lang-toggle lang-toggle--mobile" data-lang-toggle role="group" aria-label="Selector de idioma / Language selector">
+      <button type="button" data-lang-btn="es" aria-pressed="true">ES</button>
+      <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+    </div>
+    <a href="#top" data-i18n="nav.home">Inicio</a>
+    <a href="#solucion" data-i18n="nav.services">Servicios</a>
+    <a href="#portafolio" data-i18n="nav.portfolio">Portafolio</a>
+    <a href="#servicios" data-i18n="nav.pricing">Precios</a>
+    <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+    <a href="https://wa.me/584262238091?text=Hola%20Nexora%2C%20quiero%20una%20p%C3%A1gina%20web%20para%20mi%20negocio" target="_blank" rel="noopener" class="btn btn--primary" data-i18n="nav.whatsappMobile">Escribir por WhatsApp</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-gradient" data-mouse-gradient aria-hidden="true"></div>
+    <div class="hero-grid-overlay" aria-hidden="true"></div>
+
+    <div class="container hero__content">
+      <span class="badge reveal" data-reveal>
+        <span class="badge__dot"></span>
+        <span data-i18n="hero.badge">Garantía de 14 días o te devolvemos tu dinero</span>
+      </span>
+
+      <h1 class="hero__title reveal" data-reveal>
+        <span data-i18n="hero.title1">Convertimos</span> <em data-i18n="hero.title2">visitantes locales</em><br />
+        <span data-i18n="hero.title3">en clientes recurrentes.</span>
+      </h1>
+
+      <p class="hero__subtitle reveal" data-reveal data-i18n="hero.subtitle">
+        Diseñamos y programamos páginas web de alto rendimiento para negocios locales y firmas
+        de ingeniería. Nada de plantillas genéricas: cada sección está pensada para que el
+        cliente reserve, pida o te contacte en menos de 30 segundos.
+      </p>
+
+      <div class="hero__actions reveal" data-reveal>
+        <a href="https://wa.me/584262238091?text=Hola%20Nexora%2C%20quiero%20una%20p%C3%A1gina%20web%20para%20mi%20negocio" target="_blank" rel="noopener" class="btn btn--primary btn--magnetic" data-magnetic>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.4 7.6 9.1 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.1-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3c1.5.8 3.3 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.5.9.9-3.4-.2-.3C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+          <span data-i18n="hero.btnWhatsapp">WhatsApp directo</span>
+        </a>
+        <a href="mailto:Nexoracontacto@proton.me" class="btn btn--ghost btn--magnetic" data-magnetic>
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6l9 7 9-7"/><rect x="3" y="5" width="18" height="14" rx="2"/></svg>
+          <span data-i18n="hero.btnEmail">Enviar correo</span>
+        </a>
+      </div>
+
+      <div class="hero__stats reveal" data-reveal>
+        <div class="stat">
+          <span class="stat__value"><span class="stat__num" data-countup="120">0</span><span class="stat__suffix">+</span></span>
+          <span class="stat__label" data-i18n="hero.stat1Label">Negocios atendidos</span>
+        </div>
+        <div class="stat__divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__value"><span class="stat__num" data-countup="3">0</span><span class="stat__suffix">.2x</span></span>
+          <span class="stat__label" data-i18n="hero.stat2Label">Más reservas promedio</span>
+        </div>
+        <div class="stat__divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat__value"><span class="stat__num" data-countup="7">0</span><span class="stat__suffix" data-i18n="hero.stat3Suffix"> días</span></span>
+          <span class="stat__label" data-i18n="hero.stat3Label">Entrega promedio</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEMA VS SOLUCIÓN ============ -->
+  <section class="compare" id="solucion">
+    <div class="container">
+      <span class="eyebrow reveal" data-reveal data-i18n="compare.eyebrow">El problema real</span>
+      <h2 class="section-title reveal" data-reveal>
+        <span data-i18n="compare.title1">Tu negocio no pierde clientes por falta de calidad.</span><br />
+        <span data-i18n="compare.title2">Los pierde en tu propia página web.</span>
+      </h2>
+
+      <div class="compare__grid">
+        <div class="glass-card compare__card compare__card--bad reveal" data-reveal>
+          <span class="compare__tag compare__tag--bad" data-i18n="compare.tagBad">Plantilla genérica</span>
+          <ul class="compare__list">
+            <li><span class="ic ic--bad">✕</span> <span data-i18n="compare.badItem1">Carga en 6+ segundos, el cliente se va antes de verla</span></li>
+            <li><span class="ic ic--bad">✕</span> <span data-i18n="compare.badItem2">Sin botón de WhatsApp visible, pierdes el contacto rápido</span></li>
+            <li><span class="ic ic--bad">✕</span> <span data-i18n="compare.badItem3">Se ve igual que la de tu competencia</span></li>
+            <li><span class="ic ic--bad">✕</span> <span data-i18n="compare.badItem4">No aparece en Google cuando buscan "cerca de mí"</span></li>
+            <li><span class="ic ic--bad">✕</span> <span data-i18n="compare.badItem5">Ilegible en el celular, donde entra el 80% del tráfico</span></li>
+          </ul>
+        </div>
+
+        <div class="glass-card compare__card compare__card--good reveal" data-reveal>
+          <span class="compare__tag compare__tag--good" data-i18n="compare.tagGood">Diseño CRO Nexora</span>
+          <ul class="compare__list">
+            <li><span class="ic ic--good">✓</span> <span data-i18n="compare.goodItem1">Carga en menos de 1.5 segundos, optimizada al 100%</span></li>
+            <li><span class="ic ic--good">✓</span> <span data-i18n="compare.goodItem2">WhatsApp flotante siempre visible, el contacto llega directo a tu chat</span></li>
+            <li><span class="ic ic--good">✓</span> <span data-i18n="compare.goodItem3">Diseño único, hecho a la medida de tu marca</span></li>
+            <li><span class="ic ic--good">✓</span> <span data-i18n="compare.goodItem4">SEO local configurado para "cerca de mí" y tu ciudad</span></li>
+            <li><span class="ic ic--good">✓</span> <span data-i18n="compare.goodItem5">Mobile-first: pensada primero para el celular, luego el resto</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICIOS / PLANES ============ -->
+  <section class="pricing" id="servicios">
+    <div class="container">
+      <span class="eyebrow reveal" data-reveal data-i18n="pricing.eyebrow">Planes</span>
+      <h2 class="section-title reveal" data-reveal data-i18n="pricing.title">Elige el plan según el tamaño de tu proyecto</h2>
+      <p class="section-subtitle reveal" data-reveal data-i18n="pricing.subtitle">
+        Sin letra pequeña. Sin mensualidades escondidas. Pagas una vez, el sitio es tuyo.
+      </p>
+
+      <div class="pricing__grid">
+
+        <div class="glass-card plan reveal" data-reveal>
+          <h3 class="plan__name" data-i18n="pricing.basic.name">Básico / Landing Page</h3>
+          <p class="plan__desc" data-i18n="pricing.basic.desc">Ideal para tener presencia web rápida y profesional.</p>
+          <div class="plan__price"><span class="plan__currency">$</span>30<span class="plan__period" data-i18n="pricing.period">/pago único</span></div>
+          <ul class="plan__features">
+            <li data-i18n="pricing.basic.f1">1 página con sección principal a medida</li>
+            <li data-i18n="pricing.basic.f2">Catálogo simple de productos o servicios</li>
+            <li data-i18n="pricing.basic.f3">Enlace directo a redes sociales y WhatsApp</li>
+            <li data-i18n="pricing.basic.f4">100% optimizado para dispositivos móviles</li>
+            <li data-i18n="pricing.basic.f5">Entrega rápida, lista para publicar</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline plan__cta" data-i18n="pricing.basic.cta">Elegir Básico</a>
+        </div>
+
+        <div class="glass-card plan plan--featured reveal" data-reveal>
+          <span class="plan__badge" data-i18n="pricing.badge">Más popular</span>
+          <h3 class="plan__name" data-i18n="pricing.pro.name">Pro / Sitio Corporativo</h3>
+          <p class="plan__desc" data-i18n="pricing.pro.desc">La opción recomendada para marcas y proyectos serios.</p>
+          <div class="plan__price"><span class="plan__currency">$</span>59<span class="plan__period" data-i18n="pricing.period">/pago único</span></div>
+          <ul class="plan__features">
+            <li data-i18n="pricing.pro.f1">Sitio multipágina (hasta 4–5 páginas)</li>
+            <li data-i18n="pricing.pro.f2">Diseño personalizado para tu marca o proyecto</li>
+            <li data-i18n="pricing.pro.f3">Integración de portafolio y servicios</li>
+            <li data-i18n="pricing.pro.f4">SEO básico incluido</li>
+            <li data-i18n="pricing.pro.f5">Optimización de velocidad de carga</li>
+          </ul>
+          <a href="#contacto" class="btn btn--primary plan__cta" data-i18n="pricing.pro.cta">Elegir Pro</a>
+        </div>
+
+        <div class="glass-card plan reveal" data-reveal>
+          <h3 class="plan__name" data-i18n="pricing.premium.name">Premium / Bilingüe o Tienda</h3>
+          <p class="plan__desc" data-i18n="pricing.premium.desc">Para proyectos que necesitan alcance internacional o ventas online.</p>
+          <div class="plan__price"><span class="plan__currency">$</span>125<span class="plan__period" data-i18n="pricing.period">/pago único</span></div>
+          <ul class="plan__features">
+            <li data-i18n="pricing.premium.f1">Sitio completo multi-idioma (ES/EN) o tienda online</li>
+            <li data-i18n="pricing.premium.f2">Catálogo amplio de productos o servicios</li>
+            <li data-i18n="pricing.premium.f3">Integraciones avanzadas (formularios, mapas, pagos)</li>
+            <li data-i18n="pricing.premium.f4">Soporte prioritario</li>
+            <li data-i18n="pricing.premium.f5">Máxima optimización móvil y SEO</li>
+          </ul>
+          <a href="#contacto" class="btn btn--outline plan__cta" data-i18n="pricing.premium.cta">Elegir Premium</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTAFOLIO ============ -->
+  <section class="portfolio" id="portafolio">
+    <div class="container">
+      <span class="eyebrow reveal" data-reveal data-i18n="portfolio.eyebrow">Portafolio</span>
+      <h2 class="section-title reveal" data-reveal data-i18n="portfolio.title">Diseños hechos para vender, no solo para verse bien</h2>
+
+      <!-- ---- Caso de estudio principal: EDGAS ---- -->
+      <article class="glass-card port-feature reveal" data-reveal data-tilt>
+        <div class="port-feature__visual">
+          <div class="mock-browser">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mock-edgas">
+            <div class="mock-edgas__nav">
+              <span class="mock-edgas__logo">EDGAS</span>
+              <span class="mock-edgas__lang">ES · EN</span>
+            </div>
+            <div class="mock-edgas__hero">
+              <span class="mock-edgas__line mock-edgas__line--lg"></span>
+              <span class="mock-edgas__line mock-edgas__line--md"></span>
+              <span class="mock-edgas__line mock-edgas__line--sm"></span>
+            </div>
+            <div class="mock-edgas__stats">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+        <div class="port-feature__body">
+          <span class="port-feature__badge" data-i18n="portfolio.edgas.badge">Caso de estudio</span>
+          <h3 class="port-feature__title">EDGAS <span class="port-feature__dash">—</span> <span data-i18n="portfolio.edgas.titleSub">Ingeniería &amp; Consultoría Industrial</span></h3>
+          <p class="port-feature__desc" data-i18n="portfolio.edgas.desc">
+            Plataforma corporativa e industrial desarrollada para firma de ingeniería en gas natural.
+            Incluye arquitectura bilingüe (ES/EN), diseño responsive de alto rendimiento y optimización para móviles.
+          </p>
+          <div class="port-feature__tags">
+            <span class="tag">HTML5 / CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag" data-i18n="portfolio.edgas.tagBilingual">Bilingüe</span>
+            <span class="tag" data-i18n="portfolio.edgas.tagResponsive">Responsive</span>
+          </div>
+          <a href="https://nexoradevs7.github.io/EdgasWeb/" target="_blank" rel="noopener" class="btn btn--primary port-feature__cta btn--magnetic" data-magnetic>
+            <span data-i18n="portfolio.edgas.cta">Ver proyecto en vivo</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H8M17 7v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <div class="portfolio__grid">
+
+        <article class="glass-card port-card reveal" data-reveal data-tilt>
+          <div class="port-card__preview port-card__preview--restaurant">
+            <div class="mock-browser">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mock-menu">
+              <div class="mock-menu__row"><span>Ceviche de la casa</span><b>$8</b></div>
+              <div class="mock-menu__row"><span>Risotto de hongos</span><b>$12</b></div>
+              <div class="mock-menu__row"><span>Tiramisú</span><b>$6</b></div>
+              <div class="mock-menu__btn" data-i18n="portfolio.restaurant.mockBtn">Reservar mesa</div>
+            </div>
+          </div>
+          <div class="port-card__body">
+            <h3 data-i18n="portfolio.restaurant.title">Restaurantes</h3>
+            <p data-i18n="portfolio.restaurant.desc">Menú digital interactivo + reservas directas por WhatsApp, sin apps ni comisiones.</p>
+          </div>
+        </article>
+
+        <article class="glass-card port-card reveal" data-reveal data-tilt>
+          <div class="port-card__preview port-card__preview--cafe">
+            <div class="mock-browser">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mock-cafe">
+              <div class="mock-cafe__badge" data-i18n="portfolio.cafe.mockBadge">☕ Abierto ahora</div>
+              <div class="mock-cafe__slot">9:00 AM</div>
+              <div class="mock-cafe__slot mock-cafe__slot--active">11:30 AM</div>
+              <div class="mock-cafe__slot">2:00 PM</div>
+              <div class="mock-menu__btn" data-i18n="portfolio.cafe.mockBtn">Confirmar reserva</div>
+            </div>
+          </div>
+          <div class="port-card__body">
+            <h3 data-i18n="portfolio.cafe.title">Cafés</h3>
+            <p data-i18n="portfolio.cafe.desc">Sistema de reserva de mesas con horarios en vivo, pensado para el tráfico de fin de semana.</p>
+          </div>
+        </article>
+
+        <article class="glass-card port-card reveal" data-reveal data-tilt>
+          <div class="port-card__preview port-card__preview--shop">
+            <div class="mock-browser">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mock-shop">
+              <div class="mock-shop__grid">
+                <div class="mock-shop__item"></div>
+                <div class="mock-shop__item"></div>
+                <div class="mock-shop__item"></div>
+                <div class="mock-shop__item"></div>
+              </div>
+              <div class="mock-menu__btn" data-i18n="portfolio.shop.mockBtn">Pedir por WhatsApp</div>
+            </div>
+          </div>
+          <div class="port-card__body">
+            <h3 data-i18n="portfolio.shop.title">Tiendas</h3>
+            <p data-i18n="portfolio.shop.desc">Catálogo visual con checkout directo por WhatsApp: el cliente arma su pedido sin salir del chat.</p>
+          </div>
+        </article>
+
+        <article class="glass-card port-card reveal" data-reveal data-tilt>
+          <div class="port-card__preview port-card__preview--salon">
+            <div class="mock-browser">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mock-salon">
+              <div class="mock-salon__calendar">
+                <span>L</span><span>M</span><span>M</span><span class="on">J</span><span>V</span><span>S</span><span>D</span>
+              </div>
+              <div class="mock-menu__row"><span data-i18n="portfolio.salon.mockService">Corte + barba</span><b>45 min</b></div>
+              <div class="mock-menu__btn" data-i18n="portfolio.salon.mockBtn">Agendar cita</div>
+            </div>
+          </div>
+          <div class="port-card__body">
+            <h3 data-i18n="portfolio.salon.title">Salones y barberías</h3>
+            <p data-i18n="portfolio.salon.desc">Agenda online con recordatorios automáticos para reducir las citas perdidas.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <span class="eyebrow reveal" data-reveal data-i18n="faq.eyebrow">Preguntas frecuentes</span>
+      <h2 class="section-title reveal" data-reveal data-i18n="faq.title">Todo lo que necesitas saber antes de empezar</h2>
+
+      <div class="faq__list">
+
+        <div class="glass-card faq-item reveal" data-reveal data-faq-item>
+          <button class="faq-item__q" data-faq-trigger aria-expanded="false">
+            <span data-i18n="faq.q1">¿Cuánto tiempo tarda la entrega?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a" data-faq-panel>
+            <p data-i18n="faq.a1">El plan Básico se entrega en 3–5 días hábiles, el Pro en 7–10 días y el Premium entre 10 y 15 días, contando desde que recibimos tu contenido (logo, fotos y textos).</p>
+          </div>
+        </div>
+
+        <div class="glass-card faq-item reveal" data-reveal data-faq-item>
+          <button class="faq-item__q" data-faq-trigger aria-expanded="false">
+            <span data-i18n="faq.q2">¿Necesito comprar mi propio dominio y hosting?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a" data-faq-panel>
+            <p data-i18n="faq.a2">Sí, recomendamos que el dominio y el hosting estén siempre a tu nombre para que el sitio sea 100% tuyo. Si no sabes cómo hacerlo, te acompañamos en todo el proceso sin costo adicional.</p>
+          </div>
+        </div>
+
+        <div class="glass-card faq-item reveal" data-reveal data-faq-item>
+          <button class="faq-item__q" data-faq-trigger aria-expanded="false">
+            <span data-i18n="faq.q3">¿Qué pasa si no me gusta el resultado?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a" data-faq-panel>
+            <p data-i18n="faq.a3">Incluimos dos rondas de ajustes sin costo en todos los planes. Si aun así sientes que no cumplimos lo acordado en la propuesta inicial, te devolvemos el 100% de tu inversión dentro de los primeros 14 días.</p>
+          </div>
+        </div>
+
+        <div class="glass-card faq-item reveal" data-reveal data-faq-item>
+          <button class="faq-item__q" data-faq-trigger aria-expanded="false">
+            <span data-i18n="faq.q4">¿El plan Premium incluye el sitio en dos idiomas?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a" data-faq-panel>
+            <p data-i18n="faq.a4">Sí. El plan Premium incluye arquitectura bilingüe completa (español e inglés) con selector de idioma, o alternativamente una tienda online con catálogo amplio — tú eliges según tu proyecto.</p>
+          </div>
+        </div>
+
+        <div class="glass-card faq-item reveal" data-reveal data-faq-item>
+          <button class="faq-item__q" data-faq-trigger aria-expanded="false">
+            <span data-i18n="faq.q5">¿La página funciona bien en celular?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a" data-faq-panel>
+            <p data-i18n="faq.a5">Sí, diseñamos primero para móvil y luego adaptamos a tablet y escritorio, ya que más del 80% de tus clientes te van a encontrar desde el celular buscando en Google o redes sociales.</p>
+          </div>
+        </div>
+
+        <div class="glass-card faq-item reveal" data-reveal data-faq-item>
+          <button class="faq-item__q" data-faq-trigger aria-expanded="false">
+            <span data-i18n="faq.q6">¿Qué soporte incluye después de la entrega?</span>
+            <span class="faq-item__icon" aria-hidden="true"></span>
+          </button>
+          <div class="faq-item__a" data-faq-panel>
+            <p data-i18n="faq.a6">Básico y Pro incluyen 30 días de soporte técnico por WhatsApp sin costo. Premium incluye 3 meses de soporte prioritario. Después de ese periodo, ofrecemos planes de mantenimiento mensual opcionales.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL / CONTACTO ============ -->
+  <section class="final-cta" id="contacto">
+    <div class="final-cta__gradient" aria-hidden="true"></div>
+    <div class="container final-cta__content">
+      <h2 class="reveal" data-reveal>
+        <span data-i18n="finalcta.title1">¿Listo para dejar de perder clientes</span><br />
+        <span data-i18n="finalcta.title2">frente a tu propia pantalla?</span>
+      </h2>
+      <p class="reveal" data-reveal data-i18n="finalcta.subtitle">
+        Escríbenos por WhatsApp o correo, sin compromiso. Te decimos exactamente
+        qué necesita tu proyecto y en cuánto tiempo lo tenemos listo.
+      </p>
+      <div class="final-cta__actions reveal" data-reveal>
+        <a href="https://wa.me/584262238091?text=Hola%20Nexora%2C%20quiero%20una%20p%C3%A1gina%20web%20para%20mi%20negocio" target="_blank" rel="noopener" class="btn btn--primary btn--lg btn--magnetic" data-magnetic>
+          <span data-i18n="finalcta.btnWhatsapp">Escribir por WhatsApp</span>
+        </a>
+        <a href="mailto:Nexoracontacto@proton.me" class="btn btn--ghost btn--lg btn--magnetic" data-magnetic>
+          Nexoracontacto@proton.me
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a href="#top" class="nav__logo footer__logo">
+      <span class="nav__logo-mark">N</span>
+      NEXORA<span class="nav__logo-dot">.</span>
+    </a>
+    <p class="footer__tagline" data-i18n="footer.tagline">Sitios web de alto rendimiento para negocios locales y proyectos de ingeniería.</p>
+
+    <div class="footer__cols">
+      <div>
+        <h4 data-i18n="footer.navHeader">Navegación</h4>
+        <a href="#top" data-i18n="nav.home">Inicio</a>
+        <a href="#solucion" data-i18n="nav.services">Servicios</a>
+        <a href="#portafolio" data-i18n="nav.portfolio">Portafolio</a>
+        <a href="#servicios" data-i18n="nav.pricing">Precios</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.contactHeader">Contacto</h4>
+        <a href="mailto:Nexoracontacto@proton.me">Nexoracontacto@proton.me</a>
+        <a href="https://wa.me/584262238091" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <div>
+        <h4 data-i18n="footer.followHeader">Síguenos</h4>
+        <a href="https://www.instagram.com/httpsnexoraweb?igsi=MW92Yzdyc25nYWRjcQ%3D%3D" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom container">
+    <span>© 2026 Nexora Studio. <span data-i18n="footer.rights">Todos los derechos reservados.</span></span>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLOTANTE ============ -->
+<a
+  href="https://wa.me/584262238091?text=Hola%20Nexora%2C%20quiero%20una%20p%C3%A1gina%20web%20para%20mi%20negocio"
+  target="_blank"
+  rel="noopener"
+  class="wa-float"
+  aria-label="Escribir por WhatsApp"
+  data-magnetic
+>
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.4 7.6 9.1 7c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.1-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3c1.5.8 3.3 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.5.9.9-3.4-.2-.3C3.5 14.4 3 13.2 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9z"/></svg>
+  <span class="wa-float__ping" aria-hidden="true"></span>
+</a>
+
+<script defer src="js/main.js?v=20260901"></script>
+</body>
+</html>
